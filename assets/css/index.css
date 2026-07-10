@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Yuyu&display=swap');
+
 
 /* Hero Section*/
 .hero p{
@@ -27,6 +27,7 @@
     margin: 10px;
     border-radius: 50px;
     background-color: #AAC6DF;
+    border: none;
     
 }
 .hero-btn button:hover{
