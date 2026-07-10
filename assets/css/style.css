@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Header */
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #aac6df67;
+}
+.nav-bar .logo{
+    display: inline;
+    padding: 10px;
+}
+.nav-bar nav{
+    display: inline;
+    position: absolute;
+    font-size: 25px;
+    top: 30px;
+    right: 50px;
+    font-weight: bold;
+    
+    
+}
+.nav-bar nav a{
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(226, 220, 220);
+}
+/* Footer */
