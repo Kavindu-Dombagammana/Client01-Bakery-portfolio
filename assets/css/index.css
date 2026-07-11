@@ -47,6 +47,10 @@
     border-radius: 20px;
     border: none;
 }
+.btn-products:hover{
+    background-color: #292727;
+    color: aliceblue;
+}
 
 /* Image cards */
 .cards{

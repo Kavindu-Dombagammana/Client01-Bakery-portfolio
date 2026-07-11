@@ -35,6 +35,9 @@ body{
     font-family: "Yuyu", sans-serif;
     font-size: 50px;
 }
+.nav-bar nav a:hover{
+    color: black;
+}
 /* Footer */
 
 .col1 p{
@@ -57,6 +60,12 @@ footer{
 .col3{
     padding-right: 70px;
     display: grid;
+}
+.col3 a{
+    color: black;
+}
+.col3 a:hover{
+    color: blue;
 }
 .col4{
     padding-right: 70px;
