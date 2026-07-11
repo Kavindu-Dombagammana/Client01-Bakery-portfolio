@@ -1,0 +1,245 @@
+.hero{
+    padding-top: 120px;  
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.hero .hero-text{
+    width: 50%;
+    font-size: 80px;
+    font-family: "Yuyu", sans-serif;
+    text-align: left;
+}
+.hero img{
+    width: 50%;
+}
+.verify{
+    padding-bottom: 20px;
+}
+.verify p{
+    width: 50%;
+    font-size: 50px;
+    font-family: "Yuyu", sans-serif;
+    text-align: left;    
+}
+
+.verify-logos{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    
+}
+.logo-description{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-right: 9px;
+}
+.logo-description p{
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+}
+.logo-description h2{
+    font-family: "Yuyu", sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.offer .offer-title{
+    width: 50%;
+    font-size: 50px;
+    font-family: "Yuyu", sans-serif;
+    text-align: left; 
+    padding-bottom: 10px;
+
+}
+.order p{
+    width: 50%;
+    font-size: 50px;
+    font-family: "Yuyu", sans-serif;
+    text-align: left; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.order-form{
+    display: flex;
+    gap: 150px;
+}
+.order-form img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+/* Cards*/
+.card-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 280px;
+  max-height: 330px;
+  background-color:rgb(221, 215, 240);
+  border-radius: 10px;
+  box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.08),
+    -4px -4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1),
+    -4px -4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-image-container {
+  width: 100%;
+  height: 64%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-icon {
+  font-size: 40px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: #1f1f1f;
+  cursor: default;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
+.card-des {
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  margin: 0;
+  font-size: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #1f1f1f;
+  cursor: default;
+}
+/* Form */
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-image: linear-gradient(45deg, #330808, 
+  #2b2a27);
+  border-radius: 2.5em;
+  padding: 30px;
+  width: 300px;
+  height: 350px;
+}
+
+.form::before {
+  content: '';
+  background-image: linear-gradient(45deg, #ff0000, 
+  #2b2a29);
+  height: 358px;
+  width: 309px;
+  position: absolute;
+  margin-top: -34px;
+  margin-left: px;
+  z-index: -1;
+  border-radius: 2.7em;
+}
+
+.button {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  background: #8382c2;
+  color: black;
+  padding: 0.7em 5.5em;
+  display: flex;
+  align-items: center;
+  border: 2px solid #66da4300;
+  border-radius: 5em;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 2px solid #2e00fd;
+  background: #00000000;
+  color: #2e00fd;
+}
+
+.button:active {
+  border: 2px solid #66da4300;
+  background: #5b24b3;
+  color: black;
+}
+
+.input {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #66da4300;
+  border-bottom: 1px solid #2e00fd;
+  outline: none;
+  background-color: transparent;
+  color: #2e00fd;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.2s;
+}
+
+.input:focus {
+  border: 1px solid #66da4300;
+  border-bottom: 1px solid #2e00fd;
+  background-color: transparent;
+  color: white;
+}
+
+.input::placeholder {
+  color: #9b725b;
+}
+
+.textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: calc(100% - 10px);
+  padding: 8px;
+  height: 100px;
+  margin-bottom: 20px;
+  border: 1px solid #66da4300;
+  border-bottom: 1px solid #2e00fd;
+  outline: none;
+  background-color: transparent;
+  color: #2e00fd;
+}
+
+.textarea::placeholder {
+  color: #9b725b;
+}
+
+.textarea:focus {
+  border: 1px solid #66da4300;
+  border-bottom: 1px solid #2e00fd;
+  background-color: transparent;
+  color: white;
+}
