@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Instrument+Serif:ital@0;1&family=Yuyu&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #68a2d4;
+}
+/* Header */
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #aac6df21;
+}
+.nav-bar .logo{
+    display: inline;
+    padding: 10px;
+}
+.nav-bar nav{
+    display: inline;
+    position: absolute;
+    font-size: 25px;
+    top: 30px;
+    right: 50px;
+    font-weight: bold;
+    
+    
+}
+.nav-bar nav a{
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(226, 220, 220);
+    font-family: "Yuyu", sans-serif;
+    font-size: 50px;
+}
+.nav-bar nav a:hover{
+    color: black;
+}
+/* Footer */
+
+.col1 p{
+    font-size: 90px;
+    font-family: "Yuyu", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding-right: 70px;
+}
+footer{
+    display: flex;
+    
+    align-content: center;
+}
+.col2{
+    padding-right: 70px;
+    display: grid;
+}
+.col3{
+    padding-right: 70px;
+    display: grid;
+}
+.col3 a{
+    color: black;
+}
+.col3 a:hover{
+    color: blue;
+}
+.col4{
+    padding-right: 70px;
+    display: grid;
+}
+.col2 img{
+    margin-top: 20px;
+    margin-bottom: 50px; 
+}
+.socials{
+    display: flex;
+}
+.col2 button{
+    margin-bottom: 50px;
+    font-family: "Instrument Serif", serif;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.col2 button:hover{
+    background-color: white;
+    color: black;
+
+}
+.s-icon{
+    width: 30px;
+    height: 30px;
+}
+.col3 p{
+    font-family: "Yuyu", sans-serif;
+    font-size: 50px;
+}
+
+.col4 p{
+    font-family: "Yuyu", sans-serif;
+    font-size: 50px;
+}
+.col4 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.col4 a:hover{
+    font-size: 200%;
+    color: white;
+}
+.legal{
+    padding: 20px;
+    font-size: small;
+    display: flex;
+    gap: 1000px;
+
+}
