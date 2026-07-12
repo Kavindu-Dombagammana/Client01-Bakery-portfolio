@@ -35,3 +35,5 @@ The goal of this project is to create an online presence that reflects the baker
 - Dancing Script
 
 ![alt text](assets/icon/main-icon.svg)
+
+![alt text](<assets/image/witch's hut website.png>)
